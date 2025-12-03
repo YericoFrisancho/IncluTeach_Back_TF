@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/foros-seguidos")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class ForoQueSigueUsuarioController {
     @Autowired
     private ForoQueSigueUsuarioService foroSeguidoService;

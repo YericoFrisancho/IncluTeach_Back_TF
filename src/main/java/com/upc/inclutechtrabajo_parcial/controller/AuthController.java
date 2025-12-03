@@ -23,7 +23,7 @@ import java.util.Collections; // Importante
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class AuthController {
 
     @Autowired private AuthenticationManager authenticationManager;
