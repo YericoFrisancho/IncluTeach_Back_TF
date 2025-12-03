@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/publicaciones")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://inclutech-frontend.web.app")
 public class PublicacionForoController {
 
     @Autowired

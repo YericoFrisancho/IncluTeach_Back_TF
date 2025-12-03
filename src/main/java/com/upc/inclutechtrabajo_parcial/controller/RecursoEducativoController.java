@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/recursos")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://inclutech-frontend.web.app")
 public class RecursoEducativoController {
     @Autowired
     private RecursoEducativoService recursoService;

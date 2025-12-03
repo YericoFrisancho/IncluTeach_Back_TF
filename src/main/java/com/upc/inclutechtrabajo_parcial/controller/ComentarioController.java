@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/comentarios")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://inclutech-frontend.web.app")
 public class ComentarioController {
     @Autowired
     private ComentarioService comentarioService;

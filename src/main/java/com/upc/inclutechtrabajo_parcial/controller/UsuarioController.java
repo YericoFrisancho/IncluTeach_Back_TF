@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://inclutech-frontend.web.app")
 public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;

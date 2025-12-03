@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/foros")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://inclutech-frontend.web.app")
 public class ForoController {
     @Autowired
     private ForoService foroService;
